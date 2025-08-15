@@ -19,3 +19,27 @@ A full-stack task management system with user authentication, task CRUD operatio
 - **API Documentation**: Well-defined endpoints
 
 ## Project Structure
+
+
+## Prerequisites
+
+- Node.js (v18 or higher)
+- Docker & Docker Compose
+- Git
+
+## Quick Start
+
+### Using Docker (Recommended)
+
+```bash
+# Clone the repository
+git clone https://github.com/your-repo/task-management.git
+cd task-management
+
+# Start all services
+docker-compose up --build
+
+# Access the application:
+# Frontend: http://localhost:3000
+# Backend API: http://localhost:5000
+# PostgreSQL: localhost:5432
