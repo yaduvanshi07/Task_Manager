@@ -19,7 +19,7 @@ A full-stack task management system with user authentication, task CRUD operatio
 - **API Documentation**: Well-defined endpoints
 
 ## Project Structure
-
+<pre> ## 📂 Project Structure ``` task-management/ ├── backend/ │ ├── src/ │ │ ├── controllers/ │ │ ├── middleware/ │ │ ├── models/ │ │ ├── routes/ │ │ └── app.js │ ├── uploads/ │ ├── package.json │ └── Dockerfile ├── frontend/ │ ├── src/ │ │ ├── components/ │ │ ├── context/ │ │ ├── pages/ │ │ └── App.js │ ├── package.json │ └── Dockerfile ├── docker-compose.yml └── README.md ``` </pre>
 
 ## Prerequisites
 
@@ -43,3 +43,4 @@ docker-compose up --build
 # Frontend: http://localhost:3000
 # Backend API: http://localhost:5000
 # PostgreSQL: localhost:5432
+
